@@ -1,0 +1,9 @@
+Comandos para ligar ///
+
+
+Use o html dentro do frontend ----- *
+
+use o ts dentro do src/WebPack --- *NÃO REMOVA O ARQUIVO INDEX.TS OU /JS*
+
+front-end: 'npm run build:frontend'  -> 'webpack -w'
+back-end: 'npm run build:backend'  -> 'tsc'

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel='stylesheet' href='./assets/Css/style.css'>
+    <link rel='icon' href='./assets/img/netflix.png'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <link rel='stylesheet' href='./assets/Css/normalize.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body class=''
+    style='background: rgb(22, 22, 22); background: url("https://occ-0-119-1380.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXQyyhMXC-B4_8sfUN8Lr06kgoBjPSC4fVGaK6JN9_pOYsWuGTokr9pVGaIgWCHhSz5h6Yy3eHnY-ulf5Lwt2ju-Cvpx.jpg?r=daf") no-repeat rgb(17, 17, 17); background-size: 100%; '>
+    <div class='container-fluid'>
+        <div class='fixo fixed-top'>
+
+            <nav class='navbar navbar-expand-lg'>
+
+                <a href='' class='navbar-brand navbar-expand-sm'
+                    style='color: red; padding-left: 40px; font-size: 28px; font-weight: bold; font-family: monospace;'>NETFLIX</a>
+                <ul class='navbar-nav mr-auto navbar-expand-xl' style='margin-left: 15px;'>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link' style='color: white; font-weight: bold;'>Inicio</a>
+                    </li>
+
+                    <li class='nav-item'>
+                        <a href='' class='nav-link' style='color: white;'>Séries</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link' style='color: white;'>Filmes</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link' style='color: white;'>Bombando</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link' style='color: white;'>Minha lista</a>
+                    </li>
+                </ul>
+                <ul class='navbar-nav ml-auto navbar-expand-xl direita' style='margin-right: 35px;'>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link'><svg style='font-weight: bold; color: white;' width="21px"
+                                height="21px" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg></a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href='' class='nav-link'><svg style='color: white;' width="21px" height="21px"
+                                viewBox="0 0 16 16" class="bi bi-gift" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z" />
+                            </svg></a>
+                    </li>
+                    <li class='nav-item dropdown '>
+                        <a href='' class='nav-link' data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><svg style='color: white;' width="21px" height="21px"
+                                viewBox="0 0 16 16" class=" bi bi-bell-fill" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg" style='color: white'>
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                            </svg></a>
+                        <div class='dropdown-menu dropdown-menu-right  '
+                            style='overflow:scroll;height:850%;width:950%;overflow:auto; background-color: rgba(0, 0, 0, 0.6); margin-top: 10px;'>
+
+                            <a href='' class='dropdown-item tyt cor'
+                                style='color: lightgray; display: flex; font-size: 16px;'><img
+                                    src='./assets/img/se acontecer.png' width="100" height="70"
+                                    style='margin-right: 23px;'>Você ainda não assistiu a Se<br> Algo Acontecer... Te
+                                amo. Assista <br>agora ( ou veja outra<br> coisa ).<br><span
+                                    style='color: gray; margin-top: 95px; position: relative; right: 61%;'>há 3
+                                    dias</span></a>
+                            <div class='dropdown-divider'></div>
+                            <a href='' class='dropdown-item tyt cor'
+                                style='color: lightgray; display: flex; font-size: 16px;'><img
+                                    src='./assets/img/rick.png' width="100" height="70"
+                                    style='margin-right: 23px;'>Assista novamente aos seus<br> momentos
+                                favoritos<br>confira o que você assistiu <span
+                                    style='color: gray; margin-top: 70px; position: relative; right: 51.5%;'>há 4
+                                    dias</span></a>
+                            <div class='dropdown-divider'></div>
+                            <a href='' class='dropdown-item tyt cor'
+                                style='color: lightgray; display: flex; font-size: 16px;'><img src='./assets/img/10.png'
+                                    width="100" height="70" style='margin-right: 23px;'>Top 10 de hoje:
+                                Brasil<br>Assistir tudo<br><br> <span
+                                    style='color: gray; margin-top: 45px; position: relative; right: 39.5%;'>há 5
+                                    dias</span></a>
+                            <div class='dropdown-divider'></div>
+                            <a href='' class='dropdown-item tyt cor'
+                                style='color: lightgray; display: flex; font-size: 16px;'><img
+                                    src='./assets/img/deb.png' width="100" height="70" style='margin-right: 23px;'>Você
+                                ainda não assistiu a O<br>Cobrador de Dívidas 2.<br> Assista agora ( ou veja outra<br>
+                                coisa ).<br><br> <span
+                                    style='color: gray; margin-top: 95px; position: relative; right: 52.5%;'>há 1
+                                    semana</span></a>
+                            <div class='dropdown-divider'></div>
+                            <a href='' class='dropdown-item tyt cor'
+                                style='color: lightgray; display: flex; font-size: 16px;'><img
+                                    src='./assets/img/kid.png' width="100" height="70" style='margin-right: 23px;'>Crie
+                                um perfil para crianças<br>Especial para crianças até 12<br>anos <span
+                                    style='color: gray; margin-top: 70px; position: relative; right: 52.8%;'>há 1
+                                    semana</span></a>
+
+                        </div>
+
+                    </li>
+                    <li class='nav-item dropdown '>
+                        <a href='' class='nav-link dropdown-toggle testez MINHA-CASSE' data-toggle='dropdown'
+                            style='color: white;'><img src='./assets/img/style.png' width="29.5px" height="29.5px"
+                                style='border-radius: 5px;'></a>
+                        <div class='dropdown-menu dropdown-menu-right  '
+                            style='background-color: rgba(0, 0, 0, 0.5); margin-top: 10px; text-align: left;'>
+                            <a href='' class='dropdown-item' style=' color: white; '><img src='./assets/img/T1.png'
+                                    class='rounded' width="30px" />
+                                João Carlos
+                            </a>
+                            <a href='' class='dropdown-item' style=' color: white; '><img src='./assets/img/T2.png'
+                                    class='rounded' width="30px" />
+                                Usuário 1
+                            </a>
+                            <a href='' class='dropdown-item' style=' color: white; '><img src='./assets/img/T3.png'
+                                    class='rounded' width="30px" />
+                                Usuário 2
+                            </a>
+                            <a href='' class='dropdown-item' style=' color: white; '><img src='./assets/img/T4.png'
+                                    class='rounded' width="30px" />
+                                Usuário 3
+                            </a>
+                            <a href='' class='dropdown-item' style=' color: white; margin-left: 5px; '><img
+                                    src='./assets/img/T5.png' class='rounded' width="30px" />
+                                Usuário 4
+                            </a>
+                            <a href='' class='dropdown-item' style='color: white;'>Gerenciar perfis</a>
+                            <div class='dropdown-divider'></div>
+                            <a href='' class='dropdown-item' style='color: white;'>Conta</a>
+                            <a href='' class='dropdown-item' style='color: white;'>Centro de ajuda</a>
+                            <a href='' class='dropdown-item' style='color: white;'>Sair da Netflix</a>
+
+
+                        </div>
+
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <div class='container-fluid'>
+
+            <div style='display: flex; flex-direction: column;'>
+                <img class='src_image'
+                    src='https://occ-0-119-1380.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABW3tBQt3Nb_HadnYr4Fu0yXn8yXze6-I5zQhF6_lpBkPHo_ukd4i5KUrPSdzY2hZHdo1PMNRs0wLDvzatZhx_glgl3BycX7-u0022tWj1-w-9vDF5p1luKmEK_trwkOflOY_kDwT79jcokUSqp3Gs2lEd8WyTbFKg7CxU2D9aUObnw.png?r=8be'>
+                <div class='text_cont container-fluid'>Depois de uma tragédia ocorrer em sua nova casa,<br>
+                    Daniel escuta um pedido de socorro sinistro e pede a <br> ajuda de um
+                    famoso especialista em paranormalidade.
+                    <div class='container-fluid ' style='display: flex; flex-direction: row;'>
+                        <div class='btnX'><button class='btn btn-outline-light active btnY '
+                                style='width: 150px; color: black; font-weight: 500; '><svg width="25px" height="25px"
+                                    viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                </svg> Assistir</button></div>
+                        <div class='btn'><button class='btn btn-outline-secondary active btnP'
+                                style='margin-top: 3px; width: 230px; height: 42px; color: rgb(255, 255, 255); font-weight: 700; '><svg
+                                    style='margin-right: 5px;' width="20px" height="20px" viewBox="0 0 16 16"
+                                    class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z" />
+                                    <circle cx="8" cy="4.5" r="1" />
+                                </svg> Mais informações</button></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div w3-include-html="./assets/jquery/container.html">
+            </div>
+
+        </div>
+
+
+
+        <script>window.onscroll = function () {
+                var top = window.pageYOffset || document.documentElement.scrollTop
+                const teste = document.querySelector('.fixo');
+                if (top > 100) {
+                    teste.classList.add('fundo_preto');
+                }
+
+
+                else {
+                    teste.classList.remove('fundo_preto');
+                }
+
+
+                function carrosel() {
+                    return {
+
+                        item: document.getElementById("ultimo"),
+                        img: document.querySelector('.imgU'),
+                        only: document.querySelector('.only'),
+
+                        pegaClique() {
+                            this.confereItem();
+                        },
+
+
+                        confereItem() {
+                            document.addEventListener('click', x => {
+                                const xr = x.target;
+                                const im1 = document.querySelector('.im1');
+                                const im2 = document.querySelector('.im2');
+                                const im3 = document.querySelector('.im3');
+                                const im4 = document.querySelector('.im4');
+                                const im5 = document.querySelector('.im5');
+                                const im6 = document.querySelector('.im6');
+                                const im7 = document.querySelector('.im7');
+                                const im8 = document.querySelector('.im8');
+                                const im9 = document.querySelector('.im9');
+                                const im10 = document.querySelector('.im10');
+                                const im11 = document.querySelector('.im11');
+                                const im12 = document.querySelector('.im12');
+                                const im13 = document.querySelector('.im13');
+                                const im14 = document.querySelector('.im14');
+                                const im15 = document.querySelector('.im15');
+                                const im16 = document.querySelector('.im16');
+                                const im17 = document.querySelector('.im17');
+                                const im18 = document.querySelector('.im18');
+                                const im19 = document.querySelector('.im19');
+                                const im20 = document.querySelector('.im20');
+
+
+
+
+                                if (xr.classList.contains('next')) {
+
+                                    im1.classList.replace('im1', 'im2')
+                                    im2.classList.replace('im2', 'im3')
+                                    im3.classList.replace('im3', 'im4')
+                                    im4.classList.replace('im4', 'im5')
+                                    im5.classList.replace('im5', 'im1')
+
+                                }
+
+
+                                if (xr.classList.contains('prev')) {
+                                    im1.classList.replace('im1', 'im2')
+                                    im2.classList.replace('im2', 'im3')
+                                    im3.classList.replace('im3', 'im4')
+                                    im4.classList.replace('im4', 'im5')
+                                    im5.classList.replace('im5', 'im1')
+
+
+                                }
+
+
+                                if (xr.classList.contains('next_two')) {
+                                    im6.classList.replace('im6', 'im7')
+                                    im7.classList.replace('im7', 'im8')
+                                    im8.classList.replace('im8', 'im9')
+                                    im9.classList.replace('im9', 'im10')
+                                    im10.classList.replace('im10', 'im6')
+                                }
+
+
+                                if (xr.classList.contains('prev_two')) {
+                                    im6.classList.replace('im6', 'im7')
+                                    im7.classList.replace('im7', 'im8')
+                                    im8.classList.replace('im8', 'im9')
+                                    im9.classList.replace('im9', 'im10')
+                                    im10.classList.replace('im10', 'im6')
+
+
+                                }
+
+                                if (xr.classList.contains('next_tree')) {
+                                    im11.classList.replace('im11', 'im12')
+                                    im12.classList.replace('im12', 'im13')
+                                    im13.classList.replace('im13', 'im14')
+                                    im14.classList.replace('im14', 'im15')
+                                    im15.classList.replace('im15', 'im11')
+                                }
+
+
+                                if (xr.classList.contains('prev_tree')) {
+                                    im11.classList.replace('im11', 'im12')
+                                    im12.classList.replace('im12', 'im13')
+                                    im13.classList.replace('im13', 'im14')
+                                    im14.classList.replace('im14', 'im15')
+                                    im15.classList.replace('im15', 'im11')
+
+                                }
+
+                                if (xr.classList.contains('next_four')) {
+                                    im16.classList.replace('im16', 'im17')
+                                    im17.classList.replace('im17', 'im18')
+                                    im18.classList.replace('im18', 'im19')
+                                    im19.classList.replace('im19', 'im20')
+                                    im20.classList.replace('im20', 'im16')
+                                }
+
+                                if (xr.classList.contains('prev_four')) {
+                                    im16.classList.replace('im16', 'im17')
+                                    im17.classList.replace('im17', 'im18')
+                                    im18.classList.replace('im18', 'im19')
+                                    im19.classList.replace('im19', 'im20')
+                                    im20.classList.replace('im20', 'im16')
+                                }
+
+
+
+
+
+                            })
+                        }
+
+                    }
+                }
+
+                const inicia = carrosel();
+                inicia.pegaClique();
+            }
+
+
+
+
+
+        </script>
+        <script src='./assets/js/bundle.js'></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+
+
+        <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+        <script src='https://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js'></script>
+
+
+
+
+</body>
+
+</html>

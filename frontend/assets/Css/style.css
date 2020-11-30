@@ -1,0 +1,73 @@
+
+
+
+.fixo {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.05));
+    transition-duration: 0.6s;
+}
+
+.direita a {
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+ul a {
+    font-size: 14.5px;
+
+}
+
+ul a:hover {
+
+    filter: brightness(65%);
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in;
+    transition-property: all;
+
+}
+
+.fundo_preto {
+
+    transition: width 0s, linear 0s;
+
+    background: rgba(0, 0, 0, 0.884);
+
+
+}
+
+.corB {
+    color: black;
+}
+
+.cor {
+    color: white;
+}
+
+.src_image {
+    width: 420px;
+    margin: 150px 30px 25px 30px;
+}
+
+.text_cont {
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: white;
+}
+
+.btnX {
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.btnY:hover {
+    transition: 0.10s;
+    filter: brightness(50%);
+}
+
+.btnP:hover {
+    transition: 0.10;
+    filter: brightness(90%);
+}
+

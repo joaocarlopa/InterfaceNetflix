@@ -1,0 +1,220 @@
+
+    @media all and (max-width: 813px) {
+        .next,.prev,.next_two,.prev_two,.next_tree,.prev_tree,.next_four,.prev_four {
+            opacity: 0;
+        }
+
+        .xp {
+            margin-bottom: 100px;
+        }
+
+        .xd {
+            margin-top: 20px;
+        }
+
+    }
+
+    .php:hover {
+        position: relative;
+        top: 1px;
+        filter: brightness(65%);
+        cursor: pointer;
+    }
+
+.logo {
+    margin: 10px;
+    border-radius: 15px;
+
+
+    background-color: white;
+}
+
+.logo:hover {
+    background-color: rgb(155, 155, 155);
+}
+
+
+
+.link:hover {
+    filter: brightness(150%);
+}
+
+.im1 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c1.png');
+}
+
+.im2 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c2.png');
+}
+
+.im3 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c3.png');
+}
+
+.im4 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c4.png');
+}
+
+.im5 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c5.png');
+}
+
+.im6 {
+    margin-left: 15px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c6.png');
+}
+
+.im7 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c7.png');
+}
+
+.im8 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c8.png');
+}
+
+.im9 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c9.png');
+}
+
+.im10 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c10.png');
+}
+
+.im11 {
+    margin-left: 15px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c11.png');
+}
+
+.im12 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c12.png');
+}
+
+.im13 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c13.png');
+}
+
+.im14 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c14.png');
+}
+
+.im15 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c15.png');
+}
+
+.im16 {
+    margin-left: 15px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c16.png');
+}
+
+.im17 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c17.png');
+}
+
+.im18 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c18.png');
+}
+
+.im19 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c19.png');
+}
+
+.im20 {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../jquery/img/c20.png');
+}
+
+
+
+
+
+
+
+.dsg:hover {
+    filter: brightness(50%);
+
+}
+
+.dsg:active,
+.dsg:active {
+    filter: brightness(30%);
+}
